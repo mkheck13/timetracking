@@ -108,3 +108,95 @@ main{
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+
+.card{
+    display: grid;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.card-top {
+    min-height: 2.875rem;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    background-position: right 0 top -10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 999;
+}
+
+.card-body-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.card-body-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.card-type{
+    color: white;
+    font-weight: 400;
+}
+
+.card-btn{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.card-dots{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.card-btn::before,
+.card-btn::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.card-btn::before{
+    top: 6px;
+    left: 0;
+}
+
+.card-btn::after{
+    top: 6px;
+    left: 0;
+}
+
+.work-card-header{
+    background-color: var(--work-card-bg);
+}
+
+.work-card .card-top{
+    background-image: url(../images/icon-work.svg);
+}
+
