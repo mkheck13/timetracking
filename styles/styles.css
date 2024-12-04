@@ -117,6 +117,10 @@ main{
     border-bottom-right-radius: 2rem;
 }
 
+.card h2{
+    font-size: 1.125rem;
+}
+
 .card-top {
     min-height: 2.875rem;
     margin-right: 1rem;
@@ -192,6 +196,18 @@ main{
     left: 0;
 }
 
+.card-body-container h3{
+    line-height: 1.2;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.card-body-container p{
+    font-size: 0.9375rem;
+    color: var(--desaturated-blue);
+}
+
 .work-card-header{
     background-color: var(--work-card-bg);
 }
@@ -200,3 +216,42 @@ main{
     background-image: url(../images/icon-work.svg);
 }
 
+.play-card-header{
+    background-color: var(--play-card-bg);
+}
+
+.play-card .card-top{
+    background-image: url(../images/icon-play.svg);
+}
+
+.study-card-header{
+    background-color: var(--study-card-bg);
+}
+
+.study-card .card-top{
+    background-image: url(../images/icon-study.svg);
+}
+
+.exercise-card-header{
+    background-color: var(--exercise-card-bg);
+}
+
+.exercise-card .card-top{
+    background-image: url(../images/icon-exercise.svg);
+}
+
+.social-card-header{
+    background-color: var(--social-card-bg);
+}
+
+.social-card .card-top{
+    background-image: url(../images/icon-social.svg);
+}
+
+.self-care-card-header{
+    background-color: var(--self-care-bg);
+}
+
+.self-care-card .card-top{
+    background-image: url(../images/icon-self-care.svg);
+}
