@@ -24,9 +24,11 @@ I would like to give a shout out to [Charles](https://github.com/HalfwitGoldfish
 
 ## FeedBack/Peer Review:
 
-**Reviewer**:
+**Reviewer**: 
+Roy Cade III (Trey)
 
 **Comments**:
+Looks nice design wise, starts on monthly and works as intended. Just needs the opacity change for the cards and one more dot on the ellipses.
 
 
 
