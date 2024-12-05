@@ -29,7 +29,7 @@
 .attribution {
     font-size: 11px;
     text-align: center;
-    background-color: white;
+    color: white;
 }
 
 .attribution a {
@@ -94,17 +94,21 @@ header {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    margin-left: 1rem;
 }
 
-.btn-container a {
+.btn-container button:hover {
+    color: whitesmoke;
+}
+
+.nav-btn{
     background: none;
     border: none;
     color: var(--pale-blue);
     cursor: pointer;
-}
-
-.btn-container a:hover {
-    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
 }
 
 .card {
@@ -113,6 +117,8 @@ header {
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    width:16rem ;
+    height:12.5rem ;
 }
 
 .card h2 {
@@ -141,7 +147,6 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-
 }
 
 .card-body-container {
@@ -258,8 +263,8 @@ header {
 /* Mediia */
 @media (max-width: 1150px) {
     .card-container {
-        margin-top: 5em;
-        margin-bottom: 5em;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         grid-template-columns: repeat(3, auto);
         height: 100%;
     }
@@ -289,4 +294,7 @@ header {
         width: 327px;
     }
 
+    .card{
+        width: auto;
+    }
 }
