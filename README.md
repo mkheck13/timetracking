@@ -31,5 +31,6 @@ Roy Cade III (Trey)
 Looks nice design wise, starts on monthly and works as intended. Just needs the opacity change for the cards and one more dot on the ellipses.
 
 
-
+## Update:
+Added the third dot ( not sure how I let that one slip by ) and added the hover effect on the cards.
 
